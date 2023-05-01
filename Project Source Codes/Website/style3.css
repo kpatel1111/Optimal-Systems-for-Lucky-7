@@ -1,0 +1,64 @@
+*
+/*login result page*/
+{
+    margin:0;
+    padding:0;
+}
+.full-page
+{
+    height: 100%;
+    width: 100%;
+    background-color:whitesmoke;
+    /*background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://4kwallpapers.com/images/wallpapers/macos-monterey-wwdc-21-stock-5k-3840x2160-5584.jpg);*/
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    /* This block of code is for the setting the background image and position of the image*/
+}
+.header {
+    width: 30%;
+    margin: 80px auto 0px;
+    color: black;
+    text-align: center;
+    background-color: #f2f2f2;
+	padding: 5px 20px 15px 20px;
+	border: 2px solid green;
+	border-radius: 16px;
+}
+.content {
+    width: 30%;
+    margin: 0px auto;
+    color: black;
+    text-align: center;
+    margin-top:2px;
+    background-color: #f2f2f2;
+	padding: 5px 20px 15px 20px;
+	border: 2px solid green;
+	border-radius: 16px;
+}
+p{
+    margin-top:10px;
+    font-size: 18px;
+}
+.header1 {
+    width: 30%;
+    margin: 80px auto 0px;
+    color: black;
+    text-align: center;
+    background-color: #f2f2f2;
+	padding: 5px 20px 15px 20px;
+	border: 2px solid red;
+	border-radius: 16px;
+}
+.content1 {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    margin-top:2px;
+    background-color: #f2f2f2;
+	padding: 5px 20px 15px 20px;
+	border: 2px solid red;
+	border-radius: 16px;
+}

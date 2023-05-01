@@ -1,0 +1,23 @@
+<?php
+//This class re-directs the user to the page based on their search result.
+$conn = mysqli_connect("localhost","root","","cosc412");
+session_start();
+$country=$_REQUEST['myCountry'];
+if ($country==="Lipton Black Tea"||$country==="Lipton Green Tea"||$country==="Lays Classic Flavored Small Pack"||$country==="Lays Limon Small Pack"||$country==="Lays Chile Limon Small Pack"||$country==="Lays Sour Cream and Onion Small Pack"||$country==="Lays Salt and Vinegar"||$country==="Doritos Nacho Cheese"||$country==="Doritos Cool Ranch"||$country==="Doritos Spicy Sweet Chili"||$country==="Doritos Flaming Hot"||$country==="Doritos Flaming Hot Limon"||$country==="Ruffles Cheddar and Sour Cream"||$country==="Ruffles Original"||$country==="Ruffles Chili Cheese"||$country==="Ruffles Lime and Jalapeno"||$country==="Ruffles Flaming Hot"||$country==="Ruffles Salt and Vinegar"||$country==="Sour Patch Kids"||$country==="Sour Patch Kids Extreme"||$country==="Sour Patch Kids Strawberry"||$country==="Sour Patch Kids Watermelon"||$country==="Sour Patch Kids Blue Raspberry"||$country==="Twix Minis"||$country==="Twix Ice Cream"||$country==="Snickers Ice Cream"||$country==="Snickers Minis"||$country==="Swedish Fish Original"||$country==="CocaCola"||$country==="CocaCola Diet"||$country==="Mountain Dew"||$country==="Mountain Dew Diet"||$country==="Fanta"||$country==="Fanta Grape"||$country==="Fanta Green Apple"||$country==="Fanta Berry"||$country==="Gatorade Cool Blue"||$country==="Gatorade Lemon Lime"||$country==="Gatorade Fruit Punch"||$country==="Gatorade Summer Fruits"||$country==="Gatorade Orange"||$country==="Red Baron Pepperoni Pizza"||$country==="Red Baron Cheese Pizza"||$country==="Vegetable Sandwich"||$country==="Southwest Ham and Cheese Sandwich"||$country==="Haagen Dazs Chocolate Ice Cream"||$country==="Whole Almonds"||$country==="Roasted Almonds"||$country==="Honey Roasted Almond Pack"||$country==="Whole Cashew Roasted and Salted"||$country==="Sun Maid Raisins"||$country==="Mix Chocolate Bag"||$country==="Great Value Mixed Vegetables"||$country==="Granulated Sugar"||$country==="All Purpose Flour"||$country==="Country Crock Butter"||$country==="Folgers Classic Roast Coffee"||$country==="Apple"||$country==="Orange"||$country==="Pineapple"||$country==="Green Apple"||$country==="Salad Bowl"||$country==="Enjoy Life Double Chocolate Brownie"||$country==="Banana 4 Piece"||$country==="Mini Sandwich Cookies Vanilla"||$country==="Oreo Chocolate Sandwich Cookie"||$country==="Cheez-It Original"||$country==="Great Value White Hamburger Buns"||$country==="Great Value White Hot Dog Buns"||$country==="Great Value White Bread"||$country==="Great Value Sourdough Bread"||$country==="Great Value Bread Mix Italian"||$country==="Great Value Honey Wheat Bread"||$country==="Great Value Multi Grain Bread"||$country==="Progresso Bread Crumbs"||$country==="HERSHEYs Chocolate Syrup"){
+header('location: foodanddrinks.php');
+}else if($country==="Blue Ink Pens"||$country==="Red Ink Pens"||$country==="Galaxy Wireless Ear Phone"||$country==="Galaxy Wired Ear Phone"||$country==="Android Charging Cable"||$country==="10 ft Lightning USB Cable"||$country==="Charging Block Type USB"||$country==="Dual USB Type Charging Block"||$country==="Multi Pin USB and Type C Charging Block"||$country==="Universal Power Adapter"||$country==="AA4 Energizer 4 Pack Battery"||$country==="Duct Tape Silver"||$country==="Swingline Stapler"||$country==="Swingline Stapler Pin"||$country==="OZERO Knit Beanie Winter Hat"||$country==="Purell Advanced Hand Sanitizer Gel"||$country==="Supplyaid KN95 Protective Face Mask"||$country==="Swingline Paper Clips 200 Pack"||$country==="Amazon Gift Card $25.00"||$country==="Apple App Store Gift Card $50.00"||$country==="Google Play Store Gift Card $50.00"||$country==="Playstation Gift Card $25.00"||$country==="ANC Bluetooth 5.0 Headphone Wireless"||$country==="Lightning to 3.5mm Headphone Jack Adapter"){
+    header('location: accessories.php');
+}else if($country==="User Profile"){
+    header('location: useraccountpage.php');
+}else if($country==="About Us"){
+    header('location: lucky7aboutus.html');
+}else if($country==="Privacy Notice"){
+    header('location: privacypage.html');
+}else if($country==="Shopping Cart"){
+    header('location: cartform.php');
+}else if($country==="Order History"){
+    header('location: orderhistory.php');
+}else if($country==="Track Order"){
+    header('location: ordertracking.php');
+}
+?>

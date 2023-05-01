@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Lucky 7 - Account Registration</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+	<!--This class provides the account registration form to the users, where they can enter their details, including name, email, address, or password.-->
+	<div class="full-page">
+		<img src="./images/logo.png" style="margin-top:-60px;">
+		<div class="form-box" style="margin-top:-60px;">
+
+			<center>
+				<h3>Account Registration Form</h3>
+				<form action="accountregistrationdatabase.php" method="post">
+
+					<p>
+						<label for="firstName"></label>
+						<input type="text" class="input-field" placeholder="Enter First Name" name="firstName"
+							id="first_name" required>
+					</p>
+
+
+					<p>
+						<label for="lastName"></label>
+						<input type="text" class="input-field" placeholder="Enter Last Name" name="lastName"
+							id="last_name" required>
+					</p>
+
+					<p>
+						<label for="phoneNumber"></label>
+						<input type="text" class="input-field" placeholder="Enter Phone Number" name="phoneNumber"
+							id="phone_number" required>
+					</p>
+
+					<p>
+						<label for="address"></label>
+						<input type="text" class="input-field" placeholder="Enter Home Address" name="address"
+							id="address" required>
+					</p>
+
+					<p>
+						<label for="cardNumber"></label>
+						<input type="text" class="input-field" placeholder="Enter Credit Card Number" name="cardNumber"
+							id="card_number" required>
+					</p>
+
+					<p>
+						<label for="cardCvv"></label>
+						<input type="text" class="input-field" placeholder="Enter CVV Code" name="cardCvv" id="card_cvv"
+							required>
+					</p>
+
+
+					<p>
+						<label for="email"></label>
+						<input type="email" class="input-field" placeholder="Enter Email Address" name="email"
+							id="emailAddress" required>
+					</p>
+
+					<p>
+						<label for="type"></label>
+						<input type="text" class="input-field"
+							placeholder="Enter Account Type (Owner, Driver, or Customer)" name="type" id="user_type"
+							required>
+					</p>
+
+
+					<p>
+						<label for="password"></label>
+						<input type="password" class="input-field" placeholder="Enter Password" name="password"
+							id="Password" required>
+					</p>
+
+					<p><a href="accountloginform.html">Already have an account? Login</a></p>
+
+					<input type='checkbox' class='check-box' required><span>I agree to the terms and conditions</span>
+
+					<button type="submit" value="Submit">Submit</button>
+				</form>
+			</center>
+		</div>
+
+	</div>
+
+</body>
+
+</html>

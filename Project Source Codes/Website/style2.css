@@ -1,0 +1,107 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.full-page
+{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    /*background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://4kwallpapers.com/images/wallpapers/macos-monterey-wwdc-21-stock-5k-3840x2160-5584.jpg);*/
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    /* This block of code is for the setting the background image and position of the image*/
+}
+
+.form-box
+{
+    width: 400px;
+    position: relative;
+    margin:2% auto;
+    height: fit-content;
+    margin-top: -20px; 
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+	border: 2px solid blue;
+	border-radius: 16px;
+}
+h3{
+    color: black;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+label{
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+.input-field
+{
+    width: 90%;
+    padding: 10px 0;
+    margin:5px 0;
+    border-left: 0;
+    border-top:0;
+    border-right:0;
+    border-bottom: 1px solid blue;
+    outline: none;
+    background:transparent;
+}
+input{
+    color:black;
+    font-size: 14px;
+}
+button{
+    width: 80%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    background: #F3C693;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+span{
+    color:black;
+    font-size: 16px;
+    position: relative;
+}
+.check-box
+{
+    margin: 10px 10px 34px 0;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 10px;
+    /*This is for the setting of the navigation bar dimensions*/
+}
+.navbar h1{
+    color: white;
+}
+a{
+    color:red;
+}
+img{
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    height: 180px;
+    width: 180px;
+}

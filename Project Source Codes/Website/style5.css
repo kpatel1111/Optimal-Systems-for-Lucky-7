@@ -1,0 +1,91 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.full-page1
+{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://media.istockphoto.com/id/1213363511/vector/abstract-blurred-background-defocused-blue-gradient.jpg?s=612x612&w=0&k=20&c=Kl-cljKkxzJNZ8mnpyyPKWUtIOQIoBuZQNvltxLhxhw=);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    /* This block of code is for the setting the background image and position of the image*/
+}
+.section1{
+    margin-top: 20px;
+    width: 80%;
+    height: 600px;
+    position: relative;
+    margin:2% auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px;
+    overflow: hidden;
+}
+.container1{
+    width: 80%;
+    display: block;
+    margin:auto;
+    padding-top: 100px;
+}
+.content-section1{
+    float: left;
+    width: 55%;
+}
+.image-section1{
+    float: right;
+    width: 40%;
+}
+.image-section1 img{
+    width: 100%;
+    height: auto;
+}
+.content-section1 .title1{
+    
+    font-size: 28px;
+    color:aqua;
+}
+.content-section1 .content1 h3{
+    margin-top: 20px;
+    color:red;
+    font-size: 21px;
+}
+.content-section1 .content1 p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+@media screen and (max-width: 768px){
+    .container1{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section1{
+        float: none;
+        width:100%;
+        display: block;
+        margin:auto;
+    }
+    .image-section1{
+        float: none;
+        width:100%;
+    }
+    .image-section1 img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .content-section1 .title1{
+        text-align: center;
+        font-size: 19px;
+    }
+}
+p{
+    color:white;
+}
